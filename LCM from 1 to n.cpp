@@ -38,6 +38,8 @@ void sieve(int n)
 }
 int main()
 {
+    
+    ///LCM means the multiplication of maximum powers of primes.
      ios_base::sync_with_stdio(false);
      cin.tie(NULL);
      sieve(100000000);
