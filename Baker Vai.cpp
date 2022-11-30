@@ -8,6 +8,7 @@ using namespace std;
 #define pii pair<int,int>
 #define endl '\n'
 int grid[105][105];
+///c2 will always be constant for every triplet of (r1,c1,r2).....
 int dp[105][105][105];
 int n,m;
 int solve(int r1,int c1,int r2,int c2)
